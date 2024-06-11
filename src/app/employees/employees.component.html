@@ -1,0 +1,17 @@
+
+<div class="card">
+    <ng-container *ngFor="let employee of employees" >
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Department</th>
+                </tr>
+                <tr>
+                    <td>{{employee.first_name}}</td>
+                    <td>{{employee.last_name}}</td>
+                    <td>{{employee.email}}</td>
+                    <td>{{employee.department}}</td>
+                </tr>
+            </ng-container>
+</div>
